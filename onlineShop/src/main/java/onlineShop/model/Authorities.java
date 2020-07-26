@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @Table(name = "authorities")
 public class Authorities implements Serializable {
 
-	private static final long serialVersionUID = 8734140534986494039L;
+	private static final long serialVersionUID = "YOURSERIALVERSIONID";
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
